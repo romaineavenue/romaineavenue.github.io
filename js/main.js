@@ -11,6 +11,6 @@ for (step = 0; step < 1000000; step++) {
     window.setInterval(function(){
         myParagraph.innerText = step.toString();
         console.log(step.toString());
-    }, step);
+    }, 1000);
 }
 
