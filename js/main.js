@@ -11,9 +11,9 @@ let sravan = new Date();
 
 var a = function(){
     setInterval(function(){
-      myParagraph.innerText = new Date();
+      myParagraph.innerText = new Date().toString();
     },1000);
         
     };
 
-    a();
+a();
