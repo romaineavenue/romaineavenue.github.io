@@ -8,7 +8,7 @@ let myParagraph = document.getElementById("apple");
 myParagraph.innerText = "hello there";
 let step = 0;
 for (step = 0; step < 1000000; step++) {
-    window.setTimeout(function(){
+    window.setInterval(function(){
         myParagraph.innerText = step.toString();
         console.log(step.toString());
     }, step);
