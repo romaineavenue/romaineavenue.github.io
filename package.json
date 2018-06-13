@@ -1,0 +1,30 @@
+{
+  "name": "romaineavenue",
+  "version": "1.0.0",
+  "description": "this is a website",
+  "main": "index.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/romaineavenue/romaineavenue.github.io.git"
+  },
+  "keywords": [
+    "javascript",
+    "es6"
+  ],
+  "author": "Kushal",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/romaineavenue/romaineavenue.github.io/issues"
+  },
+  "homepage": "https://github.com/romaineavenue/romaineavenue.github.io#readme",
+  "dependencies": {
+    "gulp": "v4.0.0",
+    "uglify-js": "^3.4.0"
+  }
+}
