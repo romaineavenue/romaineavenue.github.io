@@ -291,3 +291,9 @@ svg{
 	display: block;
 	margin: 1em auto;
 }
+
+img { 
+    border: #ff0000 solid 1px;
+    max-width: 250px;
+    max-height: 250px;
+}
