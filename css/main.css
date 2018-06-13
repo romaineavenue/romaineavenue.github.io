@@ -285,3 +285,9 @@ textarea {
         page-break-after: avoid;
     }
 }
+
+svg{
+	border: 3px solid #eee;
+	display: block;
+	margin: 1em auto;
+}
