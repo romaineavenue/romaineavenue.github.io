@@ -287,13 +287,19 @@ textarea {
 }
 
 svg{
-	border: 3px solid #eee;
+	border: #ff0000 solid 1px;
 	display: block;
-	margin: 1em auto;
+    margin: 1em auto;
+    max-width: 250px;
+    max-height: 400px;
 }
 
 img { 
     border: #ff0000 solid 1px;
     max-width: 250px;
-    max-height: 250px;
+    max-height: 400px;
+}
+
+.sravan-images { 
+    margin-top: 50px;
 }
